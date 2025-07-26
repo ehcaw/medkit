@@ -2,6 +2,18 @@
 
 This is the README for your extension "medkit". After writing up a brief description, we recommend including the following sections.
 
+## Setting up
+```
+npm install
+npm install @vscode/vsce
+vsce package
+```
+Open VS Code
+   - Go to Extensions view (Ctrl+Shift+X or Cmd+Shift+X on macOS)
+   - Click the "..." in the top right of the Extensions view
+   - Select "Install from VSIX..."
+   - Browse to and select your .vsix file
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
@@ -18,7 +30,7 @@ If you have any requirements or dependencies, add a section describing those and
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Include if your extension adds any d   Code settings through the `contributes.configuration` extension point.
 
 For example:
 
