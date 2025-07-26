@@ -5,7 +5,7 @@ MedKit is a Visual Studio Code extension that provides a collection of tools and
 ## Setting up
 ```
 npm install
-npm install @vscode/vsce
+npm install -g @vscode/vsce
 vsce package
 ```
 Open VS Code
