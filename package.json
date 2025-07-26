@@ -3,12 +3,14 @@
   "displayName": "medkit",
   "description": "stop ai slop from bleeding",
   "version": "0.0.1",
+  "publisher": "ehcaw",
   "engines": {
     "vscode": "^1.102.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": "https://github.com/ehcaw/medkit.git",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
